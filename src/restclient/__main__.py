@@ -1,17 +1,16 @@
 import logging
-# from restclient import cli
+from restclient import cli
 
 
 
 def main():
     print('Running main')
-#     logging.basicConfig(
-#         filename='run.log',
-#         format='%(asctime)s - %(levelname)s - %(message)s',
-#         level=logging.INFO,
-#     )
-    # creaete_logger()
-#     cli.execute()
+    logging.basicConfig(
+        filename='run.log',
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        level=logging.INFO,
+    )
+    cli.execute()
 
 
 if __name__ == '__main__':
